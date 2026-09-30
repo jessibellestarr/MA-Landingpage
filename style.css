@@ -108,3 +108,19 @@ footer p { color: var(--muted); font-size: .75rem; margin-block: .5rem; }
   .button { background: white; color: black; border-color: black; }
   a { overflow-wrap: anywhere; }
 }
+
+/* State-first onboarding */
+.onboarding-flow { max-width: 48rem; padding: 1.4rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--panel); }
+.onboarding-flow > label { display: block; margin-bottom: .55rem; font-weight: 700; }
+.onboarding-help { max-width: 44rem; color: var(--muted); font-size: .9rem; }
+.state-select { width: 100%; min-height: 3.2rem; margin-block: .4rem 1rem; padding: .75rem 1rem; border: 1px solid var(--border); border-radius: .35rem; background: var(--bg); color: var(--text); font: inherit; }
+.state-select:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+#continue-guide:disabled { opacity: .5; cursor: not-allowed; }
+#state-status { min-height: 1.5rem; }
+.state-guides { margin-top: 1.5rem; padding: 1.25rem; border-left: 3px solid var(--accent); background: #202720; }
+.state-guides[hidden], .state-guide[hidden] { display: none; }
+.state-guides h3 { margin-bottom: .7rem; }
+.state-guides p { max-width: 44rem; color: var(--muted); }
+@media (min-width: 640px) {
+  .onboarding-flow { padding: 2rem; }
+}
