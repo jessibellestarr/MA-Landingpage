@@ -25,3 +25,12 @@ Run `python3 -m http.server 8080 --bind 127.0.0.1` from the repository root, the
 ## Scope
 
 Educational information only; not a law firm or government agency and not legal advice. Funeral prices are not capped by the FTC Funeral Rule; a high price alone does not establish a violation. Check the cited official sources for current guidance.
+
+## Guided state pages
+
+Run `python3 scripts/generate-states.py` after changing the state page template.
+All 50 routes exist. They are general starting pages, **not completed state-law research**.
+Official-law retrieval was blocked by the environment's network proxy during development.
+Do not remove the research-pending labels without reviewing and citing current authoritative provisions.
+Onboarding choices are placed in URL parameters and may appear in hosting logs; no personal details are requested.
+The free estimate comparison stores entries only in page memory. Payments are not integrated.

@@ -124,3 +124,34 @@ footer p { color: var(--muted); font-size: .75rem; margin-block: .5rem; }
 @media (min-width: 640px) {
   .onboarding-flow { padding: 2rem; }
 }
+
+/* Consumer guidance and founder story */
+.founder-story { max-width: 46rem; margin-bottom: 2rem; }
+.founder-story p, .question-card > p { color: var(--muted); }
+.question-card { margin-top: 1.5rem; padding: 1.5rem; border: 1px solid var(--border); border-radius: var(--radius); background: var(--panel); }
+.question-card blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 3px solid var(--accent); max-width: 48rem; }
+.state-guides .state-guide:not([hidden]) { display: block; }
+
+.contact-email { overflow-wrap: anywhere; }
+.guide-title { font-size: clamp(2.2rem, 6vw, 4rem); overflow-wrap: anywhere; }
+.state-directory { columns: 3 14rem; padding-left: 1.3rem; }
+.state-directory li { margin-bottom: .7rem; }
+[hidden] { display: none !important; }
+#comparison fieldset { margin: 1rem 0; padding: 1rem; border: 1px solid var(--border); }
+#comparison label { display: inline-block; margin: .5rem 1rem .5rem 0; }
+#comparison input { max-width: 100%; width: 9rem; font: inherit; }
+
+/* Golden-ratio proportions, with flexible sizing for small screens. */
+:root { --ratio: 1.618; --space-small: 1rem; --space-medium: 1.618rem; --space-large: 2.618rem; }
+body { line-height: var(--ratio); }
+.section { padding-block: var(--space-large); }
+.question-card, .info-card { padding: var(--space-medium); }
+.information-note { max-width: 65ch; }
+.information-note h2 { font-size: 1rem; letter-spacing: normal; line-height: 1.618; }
+.information-note a { font-size: .85rem; }
+blockquote { margin-inline: 0; padding-left: var(--space-small); border-left: 3px solid var(--accent); }
+@media (min-width: 960px) {
+ .hero { grid-template-columns: 1.618fr 1fr; gap: var(--space-large); }
+ .section { padding-block: 4.236rem; }
+ footer { grid-template-columns: 1fr 1.618fr; gap: var(--space-large); }
+}
