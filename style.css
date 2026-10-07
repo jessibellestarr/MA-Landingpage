@@ -155,3 +155,12 @@ blockquote { margin-inline: 0; padding-left: var(--space-small); border-left: 3p
  .section { padding-block: 4.236rem; }
  footer { grid-template-columns: 1fr 1.618fr; gap: var(--space-large); }
 }
+
+/* Keep the printable checklist visible while removing page controls. */
+@media print {
+  .print-button { display: none; }
+  body:has(#checklist) .site-header, body:has(#checklist) main > section:not(#checklist), body:has(#checklist) footer { display: none; }
+  #checklist { display: block; }
+  #checklist .micro { display: none; }
+  #checklist label { break-inside: avoid; }
+}

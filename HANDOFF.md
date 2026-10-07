@@ -1,3 +1,26 @@
+# Continuation: NC/SC guides and site checks, October 6, 2026
+
+This section supersedes the older research-pending status below. Work is prepared on `followup-accessibility-navigation` (draft PR #3); production source remains unverified. Do not claim deployment.
+
+## Completed in this follow-up
+- NC and SC now have bounded, cited guides covering authority, cremation, complaint paths, practical questions, and planning ahead. NC also summarizes interstate permit requirements and facility refrigeration. They explicitly do not resolve every transport/home-burial/international case.
+- NC research checked S.L. 2026-48 (generally effective October 1, 2026), not just older codified pages. Sections 25, 43, 47 and 64 matter here. Refrigeration custody clock and cremation death clock must not be conflated.
+- SC guidance cites the Safe Cremation Act. Cremation-agent hierarchy is not presented as a hierarchy for all funeral decisions. Preneed oversight routes to Consumer Affairs, funeral-professional complaints to LLR.
+- Complaint guidance explains identity disclosure and limits on civil liability/restitution. Contacts checked against regulator pages.
+- NC/SC noindex removed in prepared source only; other 48 guides and state directory stay noindex. Sitemap includes only the two sourced state guides plus existing finished pages. Do not remove other pending labels.
+- Source fragments: `scripts/state-content/north-carolina.html` and `south-carolina.html`. Edit these, then run `python3 scripts/generate-states.py`. Generator preserves their content and index policy. Footer status reflects partial progress.
+- Homepage gains a Print this checklist button using same-origin `print.js`, compatible with the existing CSP. Print styling isolates the checklist. Checkbox marks remain in current page memory.
+- Navigation and comparison skip-link improvements from earlier work retained.
+
+## Validation and limits
+Local references and fragments across 59 HTML files passed before the final footer changes; repeated final check recorded in PR. JavaScript syntax and git diff whitespace checks passed. Six source-color combinations passed 4.5:1 normal-text contrast (ratios 8.77 to 16.45). This is not a rendered accessibility audit.
+No mobile/desktop browser rendering or print-dialog check was completed: managed preview requires control-browser capability, which is unavailable in this session. External HTTP checks and exceptions are summarized in PR; request errors are not proof of dead destinations. Prior live checks confirmed a real 404 and reachable social image, not social-platform appearance.
+
+## Unchanged blocker
+Only the old jessibellestarr/MA-Landingpage repository is accessible. The user identifies a separate personal deployment. Do not merge/deploy or delete account/project resources until the domain-serving repository is identified. Remote handoff is updated so other AIs can continue with this distinction intact. Keep Jessica H and former-licensed wording. No analytics, new mailbox, license lookup, surname, or account migration added.
+
+---
+
 # Latest continuation: October 6, 2026 (America/New_York)
 
 Read this update before the older handoff below.
