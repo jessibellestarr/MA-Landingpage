@@ -1,9 +1,36 @@
+# Latest continuation: October 6, 2026 (America/New_York)
+
+Read this update before the older handoff below.
+
+## Verified live by HTTP requests
+- Homepage serves the revised title and H1, two-dropdown onboarding, privacy/terms links, and complaint section.
+- Home, robots.txt, sitemap.xml, privacy, terms, compare, policies-and-law, NC/SC guides, and og-image.png returned HTTP 200.
+- NC and SC guides contain noindex. They must remain noindex until state research is complete.
+- A deliberately nonexistent path returned a real HTTP 404.
+- The state index request timed out. This does not establish a broken page.
+- Social image is reachable as image/png; appearance in social-platform previews is not verified.
+- Existing CSS already includes keyboard focus styling, responsive breakpoints, forced-colors support, and a print stylesheet. Browser/mobile/contrast QA is still pending. Do not claim a Lighthouse or axe pass.
+
+## Changes prepared in follow-up branch
+- Compare worksheet: add keyboard skip link and matching main landmark id.
+- Homepage navigation: add State guides and Policies and law links, remove arrow from same-page Start here link.
+- Let header and navigation wrap for narrow screens.
+- Source diff whitespace check passed. Rendered/mobile QA has not been performed.
+
+## Account/deployment blocker
+The available GitHub connection lists only jessibellestarr and Divergify-app. The only accessible Morticians Audit repo is jessibellestarr/MA-Landingpage. The user says the correct project is under a personal account. Earlier conversation retrieval did not recover that repository URL. Netlify was signed out; the user's selected Google sign-in reached a connection-refused 502 before authentication. No production deployment or account migration was performed. Do not delete projects, hide the repo, switch hosting, or claim the production source is confirmed. Identify the actual personal repository and domain-serving Netlify project first. Follow-up code should be reviewed/copied to that source before deployment.
+
+## Remaining work
+NC/SC authoritative legal research and all other state research remain unfinished. No pending label or noindex was removed. Full link checking, visual accessibility/mobile QA, Search Console sitemap submission status, and social-platform preview remain unverified. Gmail remains the working contact; do not substitute an unconfigured domain mailbox. Do not add analytics without an explicit decision and matching privacy update. Public repository visibility alone is not a reason to conceal unfinished work. Preserve honest pending labels.
+
+---
+
 # Handoff: Morticians Audit site review fixes
 
 Written October 5, 2026. Read this first if you are a new AI or person picking up the work.
 
 ## What the site is
-Static, dependency-free consumer education site (morticiansaudit.com) about funeral prices and rights, hosted on Netlify from this repo (no build command, publish directory `.`). Founder is "Jessica H", a former North Carolina licensed funeral director and embalmer. It is for families, not funeral professionals. Strict CSP on the homepage (`script-src 'self'`, `img-src 'self'`), so no inline scripts or third-party assets.
+Static, dependency-free consumer education site (morticiansaudit.com) about funeral prices and rights, hosted on Netlify. The current repository-to-production connection is UNVERIFIED. The user says this is now a personal-account project, separate from Divergify. Do not treat this repo as the confirmed production source (expected static configuration: no build command, publish directory `.`). Founder is "Jessica H", a former North Carolina licensed funeral director and embalmer. It is for families, not funeral professionals. Strict CSP on the homepage (`script-src 'self'`, `img-src 'self'`), so no inline scripts or third-party assets.
 
 ## Where this came from
 A website review (positioning, trust, SEO) produced 11 prioritized fixes. This branch (`site-review-fixes`) implements the ones that can be done in code.
@@ -23,7 +50,7 @@ A website review (positioning, trust, SEO) produced 11 prioritized fixes. This b
 If you change the footer, edit `scripts/footer.html`, then rerun `python3 scripts/generate-states.py` for state pages. The homepage, policies, compare, privacy, and terms pages have the footer pasted in directly and need the same edit by hand.
 
 ## What still needs to be done (needs Jessica, not code)
-- **Full founder name and NC license number**, or a link to the NC Board of Funeral Service licensee lookup, on the About section. Not added because the information was not available.
+- **Founder identity decision settled:** keep "Jessica H" and "former North Carolina licensed funeral director and embalmer." Do not add a surname, license number, lookup link, or imply current licensure.
 - **A domain email address** (for example hello@morticiansaudit.com) to replace the Gmail address everywhere. Domain DNS is at Namecheap.
 - **Netlify cleanup:** the earlier pull request showed two Netlify projects ("morticiansaudit" and "themorticiansaudit"). Confirm which serves the domain and delete the other.
 - **Make the GitHub repo private**, or finish the state pages first. The README currently says state research was not done.
