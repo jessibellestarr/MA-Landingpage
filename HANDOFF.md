@@ -11,7 +11,7 @@ Morticians Audit is free consumer funeral-rights and price education for familie
 Public founder name stays `Jessica H`. Founder wording stays `former North Carolina licensed funeral director and embalmer`. Do not add a surname, current-license implication, license number, or public lookup unless Jessica explicitly changes that decision.
 
 ## State coverage now researched
-Six state pages are now sourced, indexable guides:
+Eleven state pages are now sourced, indexable guides:
 
 - North Carolina
 - South Carolina
@@ -19,10 +19,15 @@ Six state pages are now sourced, indexable guides:
 - Tennessee
 - Georgia
 - Florida
+- Alabama
+- Kentucky
+- West Virginia
+- Maryland
+- Ohio
 
 All other state pages remain general starting pages and must keep their research-pending language and `noindex,follow` until their state-specific claims are researched against current authoritative sources.
 
-The researched-state directory at `/states/` now identifies the six completed guides. The sitemap includes `/states/` and those six researched state pages.
+The researched-state directory at `/states/` now identifies the eleven researched guides. The sitemap includes `/states/` and those eleven researched state pages.
 
 ## October 10 expansion
 New researched pages were added for Virginia, Tennessee, Georgia, and Florida using current official statutes, regulations, regulator pages, or state consumer guidance. Each page intentionally covers selected high-value issues instead of pretending to summarize every funeral, cemetery, medical-examiner, transport, home-burial, or public-health requirement.
@@ -66,3 +71,14 @@ GitHub edits are committed to `main`, but do not claim a Netlify deployment succ
 
 ## Style and safety rules
 Use plain, calm consumer language. Do not assume a high price proves misconduct. Separate personal experience from law. Prefer state statutes, regulations, regulators, attorneys general, vital-records agencies, and FTC primary material over funeral-industry blogs. When the law is ambiguous or a page only covers selected topics, say so.
+
+## Second October 10 expansion
+Added Alabama, Kentucky, West Virginia, Maryland, and Ohio as sourced, indexable guides. Updated directory and sitemap in the same commit. Each page retains clear limits on topics and transport authority.
+
+- Alabama: Board-published §§ 34-13-117 and 34-13-121 cover preservation, public viewing, cremation timing and paperwork; links to Board complaint forms. The Board compilation is dated October 2023; confirm amendments with the Board for a specific arrangement.
+- Kentucky: current Board-linked CR-1 form covers authority, identification and choosing cremation without embalming; links to signed-complaint instructions. Crematory authority licensing also involves the Attorney General.
+- West Virginia: §§ 30-6-3 and 30-6-21 cover representative priority, written permission, medical-examiner/coroner permission and tracking. Uses official wv.gov Board site, not the similarly named .com site.
+- Maryland: current COMAR 10.29.19.09 and .05 cover casket/embalming restrictions and the permit holder's receipt-based 48-hour timetable, with emergency exceptions. Do not confuse it with a universal death-based deadline.
+- Ohio: §§ 2108.81 and 4717.23 cover disposition authority, general 24-hour wait and cremation documents. Board website is the starting point for current complaint instructions.
+
+Validation: unique canonicals, index/follow tags, retained guide.js route hooks, directory links, and sitemap entries checked before committing. Live deployment remains unconfirmed.
