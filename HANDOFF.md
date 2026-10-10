@@ -1,98 +1,68 @@
-# Continuation: NC/SC guides and site checks, October 6, 2026
+# Morticians Audit handoff
 
-This section supersedes the older research-pending status below. Work is prepared on `followup-accessibility-navigation` (draft PR #3); production source remains unverified. Do not claim deployment.
+Updated October 10, 2026.
 
-## Completed in this follow-up
-- NC and SC now have bounded, cited guides covering authority, cremation, complaint paths, practical questions, and planning ahead. NC also summarizes interstate permit requirements and facility refrigeration. They explicitly do not resolve every transport/home-burial/international case.
-- NC research checked S.L. 2026-48 (generally effective October 1, 2026), not just older codified pages. Sections 25, 43, 47 and 64 matter here. Refrigeration custody clock and cremation death clock must not be conflated.
-- SC guidance cites the Safe Cremation Act. Cremation-agent hierarchy is not presented as a hierarchy for all funeral decisions. Preneed oversight routes to Consumer Affairs, funeral-professional complaints to LLR.
-- Complaint guidance explains identity disclosure and limits on civil liability/restitution. Contacts checked against regulator pages.
-- NC/SC noindex removed in prepared source only; other 48 guides and state directory stay noindex. Sitemap includes only the two sourced state guides plus existing finished pages. Do not remove other pending labels.
-- Source fragments: `scripts/state-content/north-carolina.html` and `south-carolina.html`. Edit these, then run `python3 scripts/generate-states.py`. Generator preserves their content and index policy. Footer status reflects partial progress.
-- Homepage gains a Print this checklist button using same-origin `print.js`, compatible with the existing CSP. Print styling isolates the checklist. Checkbox marks remain in current page memory.
-- Navigation and comparison skip-link improvements from earlier work retained.
+## Current repository
+Work is being made in `jessibellestarr/MA-Landingpage` on `main`. Jessica has confirmed this is the correct repository. The earlier confusion was about which Netlify account owns the deployment, not which GitHub repository contains the project. Do not invent or switch repositories. Confirm the correct Netlify account before changing deployment settings.
 
-## Validation and limits
-Local references and fragments across 59 HTML files passed before the final footer changes; repeated final check recorded in PR. JavaScript syntax and git diff whitespace checks passed. Six source-color combinations passed 4.5:1 normal-text contrast (ratios 8.77 to 16.45). This is not a rendered accessibility audit.
-No mobile/desktop browser rendering or print-dialog check was completed: managed preview requires control-browser capability, which is unavailable in this session. External HTTP checks and exceptions are summarized in PR; request errors are not proof of dead destinations. Prior live checks confirmed a real 404 and reachable social image, not social-platform appearance.
+## Product position
+Morticians Audit is free consumer funeral-rights and price education for families. It is not a provider-facing compliance service and it must not label a provider or price list as unlawful without enough evidence. Preserve the core distinction among law, cemetery/crematory rules, provider policy, recommendation, and price.
 
-## Unchanged blocker
-Only the old jessibellestarr/MA-Landingpage repository is accessible. The user identifies a separate personal deployment. Do not merge/deploy or delete account/project resources until the domain-serving repository is identified. Remote handoff is updated so other AIs can continue with this distinction intact. Keep Jessica H and former-licensed wording. No analytics, new mailbox, license lookup, surname, or account migration added.
+Public founder name stays `Jessica H`. Founder wording stays `former North Carolina licensed funeral director and embalmer`. Do not add a surname, current-license implication, license number, or public lookup unless Jessica explicitly changes that decision.
 
----
+## State coverage now researched
+Six state pages are now sourced, indexable guides:
 
-# Latest continuation: October 6, 2026 (America/New_York)
+- North Carolina
+- South Carolina
+- Virginia
+- Tennessee
+- Georgia
+- Florida
 
-Read this update before the older handoff below.
+All other state pages remain general starting pages and must keep their research-pending language and `noindex,follow` until their state-specific claims are researched against current authoritative sources.
 
-## Verified live by HTTP requests
-- Homepage serves the revised title and H1, two-dropdown onboarding, privacy/terms links, and complaint section.
-- Home, robots.txt, sitemap.xml, privacy, terms, compare, policies-and-law, NC/SC guides, and og-image.png returned HTTP 200.
-- NC and SC guides contain noindex. They must remain noindex until state research is complete.
-- A deliberately nonexistent path returned a real HTTP 404.
-- The state index request timed out. This does not establish a broken page.
-- Social image is reachable as image/png; appearance in social-platform previews is not verified.
-- Existing CSS already includes keyboard focus styling, responsive breakpoints, forced-colors support, and a print stylesheet. Browser/mobile/contrast QA is still pending. Do not claim a Lighthouse or axe pass.
+The researched-state directory at `/states/` now identifies the six completed guides. The sitemap includes `/states/` and those six researched state pages.
 
-## Changes prepared in follow-up branch
-- Compare worksheet: add keyboard skip link and matching main landmark id.
-- Homepage navigation: add State guides and Policies and law links, remove arrow from same-page Start here link.
-- Let header and navigation wrap for narrow screens.
-- Source diff whitespace check passed. Rendered/mobile QA has not been performed.
+## October 10 expansion
+New researched pages were added for Virginia, Tennessee, Georgia, and Florida using current official statutes, regulations, regulator pages, or state consumer guidance. Each page intentionally covers selected high-value issues instead of pretending to summarize every funeral, cemetery, medical-examiner, transport, home-burial, or public-health requirement.
 
-## Account/deployment blocker
-The available GitHub connection lists only jessibellestarr and Divergify-app. The only accessible Morticians Audit repo is jessibellestarr/MA-Landingpage. The user says the correct project is under a personal account. Earlier conversation retrieval did not recover that repository URL. Netlify was signed out; the user's selected Google sign-in reached a connection-refused 502 before authentication. No production deployment or account migration was performed. Do not delete projects, hide the repo, switch hosting, or claim the production source is confirmed. Identify the actual personal repository and domain-serving Netlify project first. Follow-up code should be reviewed/copied to that source before deployment.
+### Virginia
+Covers designation/authority, refrigeration after 48 hours, permission to embalm, cremation medical-examiner permission and identification, and Virginia DHP complaint routing.
 
-## Remaining work
-NC/SC authoritative legal research and all other state research remain unfinished. No pending label or noindex was removed. Full link checking, visual accessibility/mobile QA, Search Console sitemap submission status, and social-platform preview remain unverified. Gmail remains the working contact; do not substitute an unconfigured domain mailbox. Do not add analytics without an explicit decision and matching privacy update. Public repository visibility alone is not a reason to conceal unfinished work. Preserve honest pending labels.
+### Tennessee
+Covers the Tennessee Attorney General's statement that embalming is not required by Tennessee law, cremation authorization, regulator/preneed starting points, and Board complaint limitations.
 
----
+### Georgia
+Covers funeral-establishment and crematory licensing, release to the legally authorized person, crematory oversight, and Georgia Secretary of State complaint routing.
 
-# Handoff: Morticians Audit site review fixes
+### Florida
+Covers the statutory legally-authorized-person hierarchy, preservation/refrigeration after 24 hours, written cremation authorization, selected transport requirements, and Chapter 497 oversight.
 
-Written October 5, 2026. Read this first if you are a new AI or person picking up the work.
+## Federal Funeral Rule accuracy items
+FTC primary guidance was rechecked October 10, 2026. Preserve these facts when editing the homepage or tools:
 
-## What the site is
-Static, dependency-free consumer education site (morticiansaudit.com) about funeral prices and rights, hosted on Netlify. The current repository-to-production connection is UNVERIFIED. The user says this is now a personal-account project, separate from Divergify. Do not treat this repo as the confirmed production source (expected static configuration: no build command, publish directory `.`). Founder is "Jessica H", a former North Carolina licensed funeral director and embalmer. It is for families, not funeral professionals. Strict CSP on the homepage (`script-src 'self'`, `img-src 'self'`), so no inline scripts or third-party assets.
+- A covered funeral provider must give a completed Statement of Funeral Goods and Services Selected at the end of the arrangements discussion. For in-person arrangements, giving it later does not satisfy the Rule.
+- Telephone callers asking about prices or offerings must receive accurate price information. A provider cannot require callers to give a name, address, or phone number first.
+- If legal or other requirements force a consumer to buy an item they did not request, the reason must be explained in writing on the Statement.
+- Do not claim every cemetery, crematory, monument seller, or other death-care business is automatically covered by the FTC Funeral Rule. Coverage depends on the Rule's definition of funeral provider.
 
-## Where this came from
-A website review (positioning, trust, SEO) produced 11 prioritized fixes. This branch (`site-review-fixes`) implements the ones that can be done in code.
+Homepage copy still has one known soft phrase: `you should receive` in the itemized-statement card. It should be tightened to `the provider must give you` when the homepage is next edited. Add the telephone anonymity right and written-requirement explanation in that same pass.
 
-## What was changed
-1. **Homepage positioning.** New title, meta description, H1 ("Know what a funeral requires before you pay for it."), eyebrow, lead, and CTA text. The old H1 never mentioned funerals.
-2. **Social and structured data.** Added og:image (`og-image.png`, generated, plain text on dark background), twitter card, Organization and FAQPage JSON-LD (FAQ text in the JSON-LD must match the visible FAQ).
-3. **Logo link** now goes to `/` (was `#`).
-4. **Onboarding cut from five questions to two** (situation, provider state). `onboarding.js` and `guide.js` still work because they ignore missing parameters.
-5. **Removed unfinished features from the homepage:** the "Automated GPL checker, Planned" badge, the upload notice, and the "What we're working toward" card.
-6. **Added content:** three more rights cards (casket and outer burial container price lists, bring your own casket, itemized statement) and a "Where to take a concern" section (FTC at reportfraud.ftc.gov, state funeral board with NC and SC examples, state attorney general).
-7. **Disclaimers consolidated.** One footer disclaimer (`scripts/footer.html`, copied into every page), removed duplicate hedging in the embalming card and checklist.
-8. **New pages:** `/privacy/` and `/terms/`, linked from the footer.
-9. **Search:** all state pages (and `/states/`) now carry `noindex,follow` via `scripts/generate-states.py`. `sitemap.xml` now lists only finished pages (home, policies, compare, privacy, terms).
-10. **Policies page:** removed a developer note ("could not be rechecked during this update") and added a meta description.
+## Next product features, in priority order
+1. Build `They told me I have to...` as a state-aware decision tool distinguishing law, cemetery/crematory rules, provider policy, and recommendation.
+2. Standardize a structured research schema for every state before scaling all 50 pages. Include authority, embalming, refrigeration/preservation, cremation timing and authorization, permits, transport, home funeral/home burial, disposition options, preneed regulator, complaint route, official forms, source URLs, and review date.
+3. Expand the comparison worksheet toward an estimate/GPL auditor. It should flag missing information and questions, not declare violations automatically.
+4. Add a `Before you call the funeral home` price-call sheet, including the federal right to receive telephone price information without first identifying yourself.
+5. Later add price intelligence using authoritative or clearly attributed survey data, ownership transparency, death-situation pathways, and Spanish content.
 
-If you change the footer, edit `scripts/footer.html`, then rerun `python3 scripts/generate-states.py` for state pages. The homepage, policies, compare, privacy, and terms pages have the footer pasted in directly and need the same edit by hand.
+## SEO and indexing
+Do not index generic state placeholders. Add a state to the sitemap only after state-specific research is completed and the page's robots tag is changed to `index,follow`. Keep source-review dates visible.
 
-## What still needs to be done (needs Jessica, not code)
-- **Founder identity decision settled:** keep "Jessica H" and "former North Carolina licensed funeral director and embalmer." Do not add a surname, license number, lookup link, or imply current licensure.
-- **A domain email address** (for example hello@morticiansaudit.com) to replace the Gmail address everywhere. Domain DNS is at Namecheap.
-- **Netlify cleanup:** the earlier pull request showed two Netlify projects ("morticiansaudit" and "themorticiansaudit"). Confirm which serves the domain and delete the other.
-- **Make the GitHub repo private**, or finish the state pages first. The README currently says state research was not done.
-- **Google Search Console:** verify the domain and submit `sitemap.xml`.
-- **Have a lawyer glance at `/terms/`.** It is a plain-language draft, not legal advice.
-- **Analytics decision:** none exists. A cookieless tool such as Plausible, or Netlify server-side analytics, would show whether anyone uses the onboarding. Update `/privacy/` if added.
+Current researched-state expansion commit set includes Virginia, Tennessee, Georgia, Florida, the state directory, and sitemap updates dated October 10, 2026.
 
-## Content work still pending
-- **Research North Carolina and South Carolina properly** (cited statutes, regulator contacts, complaint links), then remove `noindex` for those two in `scripts/generate-states.py`, remove the "research pending" labels only for those states, and add them back to `sitemap.xml`. Do not remove pending labels without citing current authoritative sources.
-- Optionally add a sourced line about the FTC's January 2024 undercover phone sweep of funeral homes. Verify the figures at ftc.gov before adding; they were not verified in this session.
-- The FTC online-price-posting rulemaking: do not state its status without checking an FTC primary source.
-- Consider renaming or adding a descriptive tagline to the logo. "Morticians Audit" suggests an audit the site says it cannot do.
+## Deployment caution
+GitHub edits are committed to `main`, but do not claim a Netlify deployment succeeded solely because a GitHub commit succeeded. The user previously identified a Netlify-account mismatch. Confirm the live domain or the correct Netlify account when deployment status matters.
 
-## Things to verify (not done in this session)
-- The live site was never viewed visually: check contrast, mobile layout, and the dark theme with Lighthouse, axe, or WAVE.
-- Confirm a nonexistent URL returns a real 404 and not the homepage.
-- Confirm the new og-image displays when a link is shared.
-- Click every link on `/states/` and `/policies-and-law/`.
-- The `compare/` page has no skip link or `<main id>`; minor accessibility gap.
-
-## Style notes for whoever writes copy
-Jessica wants direct, dry, plain writing with no performed warmth. No em dashes or hyphens as sentence punctuation (use periods or commas). If unsure of a fact, say so instead of guessing. The site avoids accusing providers: "a high price alone does not establish a violation" is a deliberate position.
+## Style and safety rules
+Use plain, calm consumer language. Do not assume a high price proves misconduct. Separate personal experience from law. Prefer state statutes, regulations, regulators, attorneys general, vital-records agencies, and FTC primary material over funeral-industry blogs. When the law is ambiguous or a page only covers selected topics, say so.
