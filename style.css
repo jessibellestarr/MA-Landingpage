@@ -10,11 +10,11 @@ a, label, summary { -webkit-tap-highlight-color: transparent; }
 .wrap { width: min(1160px, calc(100% - 2.5rem)); margin-inline: auto; }
 .skip-link { position: absolute; top: -8rem; left: 1rem; z-index: 10; padding: 1rem; background: var(--accent); color: var(--bg); }
 .skip-link:focus { top: 1rem; }
-.site-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.6rem; border-bottom: 1px solid var(--border); }
+.site-header { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.6rem; border-bottom: 1px solid var(--border); }
 .brand { display: flex; align-items: center; gap: .8rem; font-weight: 750; line-height: 1.12; letter-spacing: -.03em; text-decoration: none; }
 .brand-mark { font-size: 1.5rem; letter-spacing: -.1em; }
 .brand-mark span, .brand-dot { color: var(--accent); }
-nav { display: flex; align-items: center; gap: 1.5rem; font-size: .85rem; }
+nav { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; font-size: .85rem; }
 nav a { display: inline-block; padding-block: .65rem; text-decoration: none; }
 nav a:first-child { display: none; }
 .nav-start { border-bottom: 1px solid var(--accent); }
@@ -154,4 +154,13 @@ blockquote { margin-inline: 0; padding-left: var(--space-small); border-left: 3p
  .hero { grid-template-columns: 1.618fr 1fr; gap: var(--space-large); }
  .section { padding-block: 4.236rem; }
  footer { grid-template-columns: 1fr 1.618fr; gap: var(--space-large); }
+}
+
+/* Keep the printable checklist visible while removing page controls. */
+@media print {
+  .print-button { display: none; }
+  body:has(#checklist) .site-header, body:has(#checklist) main > section:not(#checklist), body:has(#checklist) footer { display: none; }
+  #checklist { display: block; }
+  #checklist .micro { display: none; }
+  #checklist label { break-inside: avoid; }
 }

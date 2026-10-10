@@ -29,8 +29,8 @@ Educational information only; not a law firm or government agency and not legal 
 ## Guided state pages
 
 Run `python3 scripts/generate-states.py` after changing the state page template.
-All 50 routes exist. They are general starting pages, **not completed state-law research**.
-Official-law retrieval was blocked by the environment's network proxy during development.
+All 50 routes exist. North Carolina and South Carolina have sourced, bounded guides in `scripts/state-content/`. The other 48 remain general starting pages with research-pending labels and noindex.
+Official sources for the NC/SC topics were reviewed October 6, 2026, including North Carolina S.L. 2026-48 effective October 1, 2026. Preserve the source fragments when regenerating.
 Do not remove the research-pending labels without reviewing and citing current authoritative provisions.
 Onboarding choices are placed in URL parameters and may appear in hosting logs; no personal details are requested.
 The free estimate comparison stores entries only in page memory. Payments are not integrated.
