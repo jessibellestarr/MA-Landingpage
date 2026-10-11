@@ -1,6 +1,6 @@
 # Morticians Audit
 
-Consumer funeral-rights education for families in South Carolina and North Carolina.
+Consumer funeral-rights education with selected official resources for all 50 states.
 
 ## Site
 
@@ -28,9 +28,8 @@ Educational information only; not a law firm or government agency and not legal 
 
 ## Guided state pages
 
-Run `python3 scripts/generate-states.py` after changing the state page template.
-All 50 routes exist. North Carolina and South Carolina have sourced, bounded guides in `scripts/state-content/`. The other 48 remain general starting pages with research-pending labels and noindex.
-Official sources for the NC/SC topics were reviewed October 6, 2026, including North Carolina S.L. 2026-48 effective October 1, 2026. Preserve the source fragments when regenerating.
-Do not remove the research-pending labels without reviewing and citing current authoritative provisions.
-Onboarding choices are placed in URL parameters and may appear in hosting logs; no personal details are requested.
-The free estimate comparison stores entries only in page memory. Payments are not integrated.
+All 50 state routes contain sourced guidance or official consumer resources. Coverage varies and is not comprehensive legal coverage. Edit the published HTML directly. The old generator is retired and exits without writing: it would have replaced researched pages with placeholders. The NC/SC fragments in scripts/state-content are historical references, not build inputs.
+
+Keep citations next to factual legal claims. Distinguish current law from future effective dates. Update a source-review date only when that source has actually been reviewed. The source register documents the 39-state expansion, not a complete nationwide rules database.
+
+Onboarding choices appear in URL parameters and may appear in hosting logs. The comparison tool is free and manual; it stores entries only in page memory. Payments are not integrated. See docs/WORKBOOK-PLAN.md for the proposed optional paid workbook.

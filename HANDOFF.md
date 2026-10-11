@@ -1,6 +1,6 @@
 # Morticians Audit handoff
 
-Updated October 10, 2026.
+Updated October 11, 2026.
 
 ## Current repository
 Work is being made in `jessibellestarr/MA-Landingpage` on `main`. Jessica has confirmed this is the correct repository. The earlier confusion was about which Netlify account owns the deployment, not which GitHub repository contains the project. Do not invent or switch repositories. Confirm the correct Netlify account before changing deployment settings.
@@ -77,3 +77,10 @@ Added all 39 remaining states with selected official-source guidance. Removed pl
 Source limitations: some official sites blocked full-page retrieval, so only claims supported by available official search excerpts were included. Mississippi uses the Board's December 2025 compilation; Vermont's published page states it includes the 2025 session. New Jersey's 2025 act is explicitly upcoming on the review date. Avoid inferring complete current-law review from a review date. Recheck amendments and effective dates before adding more claims.
 
 Validation: 39 unique page canonicals, index/follow tags, official source links, preserved route hooks, 50 unique directory state links and 50 unique sitemap state entries. GitHub commit does not establish live deployment.
+
+
+## October 11 website review and workbook direction
+
+See docs/AUDIT-2026-10-11.md for scope, corrections, sources, and limits. The previously added 50 state guides were confirmed live at morticiansaudit.com. The old state generator is now retired to prevent destructive regeneration; edit published HTML directly. Shared routing now tolerates differing state-page structures and keeps both timing sections accessible.
+
+Jessica prefers keeping the checker free and monetizing a downloadable guide/workbook, with an optional paper edition. docs/WORKBOOK-PLAN.md proposes a $9 digital test, a 24-page structure, and print-on-demand evaluation after an actual quote and proof. docs/WORKBOOK-DRAFT.md contains original starter worksheets. Neither a finished fillable PDF nor a physical product has been launched. No checkout or shipping promise exists. Keep rights, state guides, essential questions, and the manual comparison free.
