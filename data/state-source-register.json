@@ -1,0 +1,942 @@
+{
+  "reviewDate": "2026-10-10",
+  "scope": "Selected guidance for the 39-state expansion; not a complete nationwide legal schema.",
+  "states": [
+    {
+      "slug": "alaska",
+      "topic": "Burial-transit permits",
+      "sources": [
+        {
+          "url": "https://health.alaska.gov/en/services/burial-transit-permit/",
+          "label": "Alaska Department of Health: burial-transit permit"
+        },
+        {
+          "url": "https://www.commerce.alaska.gov/web/cbpl/ProfessionalLicensing/Morticians.aspx",
+          "label": "Alaska mortician licensing"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "arizona",
+      "topic": "Disclosure for a previously rented casket",
+      "sources": [
+        {
+          "url": "https://www.azleg.gov/ars/32/01365.htm",
+          "label": "Arizona Revised Statutes § 32-1365"
+        },
+        {
+          "url": "https://www.azdhs.gov/licensing/blpo/",
+          "label": "Arizona Department of Health Services: Funeral Services Licensing"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "arkansas",
+      "topic": "Permission to embalm",
+      "sources": [
+        {
+          "url": "https://codeofarrules.arkansas.gov/Rules/Rule?chapterID=92&levelType=section&partID=1043&sectionID=36901&subChapterID=117&subPartID=5684&titleID=17",
+          "label": "17 CAR § 30-604"
+        },
+        {
+          "url": "https://insurance.arkansas.gov/industry-regulation/funeral-services/",
+          "label": "Arkansas Insurance Department: Funeral Services"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "california",
+      "topic": "Accepting or declining embalming",
+      "sources": [
+        {
+          "url": "https://cfb.ca.gov/licensee/embalming_auth.pdf",
+          "label": "California Bureau embalming authorization form"
+        },
+        {
+          "url": "https://www.cfb.ca.gov/consumer/",
+          "label": "California Cemetery and Funeral Bureau: consumers"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "colorado",
+      "topic": "A transport agreement is a distinct purchase",
+      "sources": [
+        {
+          "url": "https://leg.colorado.gov/bills/hb25-1217",
+          "label": "Colorado General Assembly: HB25-1217 enacted-act summary"
+        },
+        {
+          "url": "https://content.govdelivery.com/accounts/CODORA/bulletins/3e24a22",
+          "label": "Colorado DORA: Office of Funeral and Mortuary Science Services"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "connecticut",
+      "topic": "Before signing a prepaid contract",
+      "sources": [
+        {
+          "url": "https://portal.ct.gov/dcp/funeral-service-contracts",
+          "label": "Connecticut DCP: funeral service contracts"
+        },
+        {
+          "url": "https://portal.ct.gov/dcp/funeral-service-contracts",
+          "label": "Connecticut DCP: contract oversight and agency referrals"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "delaware",
+      "topic": "Cremation needs official permission",
+      "sources": [
+        {
+          "url": "https://delcode.delaware.gov/title16/c031/sc03/",
+          "label": "Delaware Code, Title 16, § 3159"
+        },
+        {
+          "url": "https://dpr.delaware.gov/boards/funeralservices/",
+          "label": "Delaware Board of Funeral Services"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "hawaii",
+      "topic": "Permits before disposition or removal",
+      "sources": [
+        {
+          "url": "https://data.capitol.hawaii.gov/hrscurrent/Vol06_Ch0321-0344/HRS0338/HRS_0338-0023.htm",
+          "label": "Hawaii Revised Statutes § 338-23"
+        },
+        {
+          "url": "https://health.hawaii.gov/",
+          "label": "Hawaii Department of Health: permit questions"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "idaho",
+      "topic": "Check the person and the facility",
+      "sources": [
+        {
+          "url": "https://dopl.idaho.gov/mor/",
+          "label": "Idaho Board of Morticians: licenses and complaints"
+        },
+        {
+          "url": "https://dopl.idaho.gov/mor/",
+          "label": "Idaho Board of Morticians"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "illinois",
+      "topic": "A written statement at arrangements",
+      "sources": [
+        {
+          "url": "https://idfpr.illinois.gov/content/dam/soi/en/web/idfpr/forms/dpr/funeralservices.pdf",
+          "label": "Illinois IDFPR: Funeral Services consumer brochure"
+        },
+        {
+          "url": "https://idfpr.illinois.gov/profs/fundiremb.html",
+          "label": "Illinois IDFPR: funeral directors and embalmers"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "indiana",
+      "topic": "Verify registration and professional licensing",
+      "sources": [
+        {
+          "url": "https://www.in.gov/pla/professions/funeral-and-cemetery-home/funeral-and-cemetery-licensing-information/",
+          "label": "Indiana PLA: Funeral & Cemetery licensing information"
+        },
+        {
+          "url": "https://www.in.gov/pla/professions/funeral-and-cemetery-home/",
+          "label": "Indiana PLA: Funeral & Cemetery"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "iowa",
+      "topic": "Cremation authorization and cancellation",
+      "sources": [
+        {
+          "url": "https://www.legis.iowa.gov/docs/iac/chapter/481.900.pdf",
+          "label": "Iowa Administrative Code 481—900.10"
+        },
+        {
+          "url": "https://dial.iowa.gov/about-dial/boards-and-commissions/board-mortuary-science",
+          "label": "Iowa DIAL: Board of Mortuary Science"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "kansas",
+      "topic": "Cremation paperwork",
+      "sources": [
+        {
+          "url": "https://kslegislature.gov/b2025_26/laws/065_000_0000_chapter/065_017_0000_article/065_017_0062_section/065_017_0062_k/",
+          "label": "Kansas Statutes § 65-1762"
+        },
+        {
+          "url": "https://www.ksbma.ks.gov/resources/consumer-resources/consumer-faq",
+          "label": "Kansas Board of Mortuary Arts: consumer FAQ"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "louisiana",
+      "topic": "What the cremation authorization covers",
+      "sources": [
+        {
+          "url": "https://legis.la.gov/legis/Law.aspx?d=208305",
+          "label": "Louisiana R.S. 37:876"
+        },
+        {
+          "url": "https://www.lsbefd.state.la.us/consumers",
+          "label": "Louisiana State Board of Embalmers and Funeral Directors: consumers"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "maine",
+      "topic": "Final-disposition and transport permits",
+      "sources": [
+        {
+          "url": "https://legislature.maine.gov/statutes/22/title22sec2843.html",
+          "label": "Maine Title 22, § 2843"
+        },
+        {
+          "url": "https://www1.maine.gov/pfr/professionallicensing/professions/board-funeral-services",
+          "label": "Maine Board of Funeral Services"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "massachusetts",
+      "topic": "Check licensing and obtain the price list",
+      "sources": [
+        {
+          "url": "https://www.mass.gov/info-details/funeral-directors-consumer-fact-sheet",
+          "label": "Massachusetts funeral directors consumer fact sheet"
+        },
+        {
+          "url": "https://www.mass.gov/orgs/board-of-registration-in-embalming-and-funeral-directing",
+          "label": "Massachusetts Board of Registration in Embalming and Funeral Directing"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "michigan",
+      "topic": "Permission and release of the body",
+      "sources": [
+        {
+          "url": "https://www.michigan.gov/lara/bureau-list/cscl/licensing/prof/mortuary/spotlight/embalming-final-disposition-and-fe-inspections",
+          "label": "Michigan LARA: embalming and final-disposition guidance"
+        },
+        {
+          "url": "https://www.michigan.gov/lara/bureau-list/cscl/licensing/prof/mortuary",
+          "label": "Michigan LARA: mortuary science"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "minnesota",
+      "topic": "Authorization and a disputed cremation",
+      "sources": [
+        {
+          "url": "https://www.revisor.mn.gov/statutes/cite/149A.95",
+          "label": "Minnesota Statutes § 149A.95, subdivisions 4 and 6"
+        },
+        {
+          "url": "https://www.health.state.mn.us/facilities/providers/mortsci/consumer.html",
+          "label": "Minnesota Department of Health: mortuary-science consumers"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "mississippi",
+      "topic": "A self-directed disposition document",
+      "sources": [
+        {
+          "url": "https://www.msbfs.ms.gov/secure/pdf/State%20Board%20of%20Funeral%20Service%2073-11-33%20to%2073-11-73%20%2812.8.2025%29.pdf",
+          "label": "Mississippi Board law compilation: § 73-11-58 (December 2025)"
+        },
+        {
+          "url": "https://www.msbfs.ms.gov/",
+          "label": "Mississippi State Board of Funeral Service"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "missouri",
+      "topic": "Who controls final disposition?",
+      "sources": [
+        {
+          "url": "https://revisor.mo.gov/main/OneSection.aspx?section=194.119",
+          "label": "Missouri RSMo § 194.119 (effective August 28, 2026)"
+        },
+        {
+          "url": "https://pr.mo.gov/embalmers.asp",
+          "label": "Missouri Board of Embalmers and Funeral Directors"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "montana",
+      "topic": "Authorization and identification",
+      "sources": [
+        {
+          "url": "https://mca.legmt.gov/bills/mca/title_0370/chapter_0190/part_0070/section_0040/0370-0190-0070-0040.html",
+          "label": "Montana Code Annotated § 37-19-704"
+        },
+        {
+          "url": "https://boards.bsd.dli.mt.gov/funeral/",
+          "label": "Montana Board of Funeral Service"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "nebraska",
+      "topic": "Read the authorization representations",
+      "sources": [
+        {
+          "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=71-1378",
+          "label": "Nebraska Revised Statute § 71-1378"
+        },
+        {
+          "url": "https://dhhs.ne.gov/licensure/pages/funeral-directing-and-embalming.aspx",
+          "label": "Nebraska DHHS: funeral directing and embalming"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "nevada",
+      "topic": "Death certificate and written authorization",
+      "sources": [
+        {
+          "url": "https://www.leg.state.nv.us/nrs/nrs-451.html",
+          "label": "Nevada Revised Statutes §§ 451.655–451.660"
+        },
+        {
+          "url": "https://funeral.nv.gov/",
+          "label": "Nevada Funeral and Cemetery Services Board"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "new-hampshire",
+      "topic": "Three documents before cremation",
+      "sources": [
+        {
+          "url": "https://gc.nh.gov/rsa/html/XXX/325-A/325-A-22.htm",
+          "label": "New Hampshire RSA 325-A:22"
+        },
+        {
+          "url": "https://www.oplc.nh.gov/board-registration-funeral-directors-and-embalmers",
+          "label": "New Hampshire OPLC: Funeral Directors and Embalmers"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "new-jersey",
+      "topic": "An upcoming licensing-law change",
+      "sources": [
+        {
+          "url": "https://pub.njleg.state.nj.us/Bills/2024/PL25/52_.HTM",
+          "label": "New Jersey P.L. 2025, c.52, §§ 22–24"
+        },
+        {
+          "url": "https://www.njconsumeraffairs.gov/mor",
+          "label": "New Jersey State Board of Mortuary Science"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "new-mexico",
+      "topic": "Cremation authorization and investigator permit",
+      "sources": [
+        {
+          "url": "https://www.srca.nm.gov/parts/title16/16.064.0010.html",
+          "label": "New Mexico 16.64.10.8 NMAC"
+        },
+        {
+          "url": "https://www.rld.nm.gov/boards-and-commissions/individual-boards-and-commissions/funeral-services/",
+          "label": "New Mexico Board of Funeral Services"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "new-york",
+      "topic": "Embalming prices and disclosures",
+      "sources": [
+        {
+          "url": "https://www.health.ny.gov/professionals/patients/patient_rights/funeral.htm",
+          "label": "New York DOH: A Consumer’s Guide to Arranging a Funeral"
+        },
+        {
+          "url": "https://www.health.ny.gov/professionals/funeral_director/index.htm",
+          "label": "New York Department of Health: Bureau of Funeral Directing"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "north-dakota",
+      "topic": "Authority and disposition permits",
+      "sources": [
+        {
+          "url": "https://ndlegis.gov/cencode/t23c06.pdf",
+          "label": "North Dakota Century Code §§ 23-06-03 and 23-06-07"
+        },
+        {
+          "url": "https://www.funeral.nd.gov/",
+          "label": "North Dakota State Board of Funeral Service"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "oklahoma",
+      "topic": "Embalming and refrigeration",
+      "sources": [
+        {
+          "url": "https://www.oklahoma.gov/funeral/for-the-consumer/consumer-faq.html",
+          "label": "Oklahoma Funeral Board: consumer FAQ"
+        },
+        {
+          "url": "https://oklahoma.gov/funeral/for-the-consumer/consumer-complaints.html",
+          "label": "Oklahoma Funeral Board: consumer complaints"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "oregon",
+      "topic": "Designating the decision maker",
+      "sources": [
+        {
+          "url": "https://www.oregon.gov/omcb/pages/resources-consumer.aspx",
+          "label": "Oregon Mortuary and Cemetery Board: consumer resources"
+        },
+        {
+          "url": "https://www.oregon.gov/omcb/pages/resources-consumer.aspx",
+          "label": "Oregon Mortuary and Cemetery Board: consumer resources"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "pennsylvania",
+      "topic": "Common-carrier transport",
+      "sources": [
+        {
+          "url": "https://www.pacodeandbulletin.gov/secure/pacode/data/028/chapter1/chap1toc.html",
+          "label": "Pennsylvania 28 Pa. Code §§ 1.23–1.24"
+        },
+        {
+          "url": "https://www.pa.gov/agencies/dos/department-and-offices/bpoa/boards-commissions/funeral-directors",
+          "label": "Pennsylvania State Board of Funeral Directors"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "rhode-island",
+      "topic": "A person’s own funeral contract",
+      "sources": [
+        {
+          "url": "https://webserver.rilegislature.gov/Statutes/TITLE5/5-33.2/5-33.2-24.htm",
+          "label": "Rhode Island General Laws § 5-33.2-24"
+        },
+        {
+          "url": "https://health.ri.gov/death-and-dying/embalming-funeral-directing?language=en",
+          "label": "Rhode Island Department of Health: funeral directing and embalming"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "south-dakota",
+      "topic": "Paying does not settle authority",
+      "sources": [
+        {
+          "url": "https://mylrc.sdlegislature.gov/api/Documents/SessionLaws/235657.pdf",
+          "label": "South Dakota enacted HB1152 (2022), §§ 5–6"
+        },
+        {
+          "url": "https://doh.sd.gov/licensing-and-records/boards/funeral/",
+          "label": "South Dakota Board of Funeral Service"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "texas",
+      "topic": "Choosing the person who will decide",
+      "sources": [
+        {
+          "url": "https://tfsc.texas.gov/files/News/Facts%20About%20Funerals%20English.pdf",
+          "label": "Texas Funeral Service Commission: Facts About Funerals"
+        },
+        {
+          "url": "https://tfsc.texas.gov/complaints",
+          "label": "Texas Funeral Service Commission: complaints"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "utah",
+      "topic": "Family arrangements still need permits",
+      "sources": [
+        {
+          "url": "https://vitalrecords.utah.gov/death",
+          "label": "Utah Vital Records: death and disposition guidance"
+        },
+        {
+          "url": "https://commerce.utah.gov/dopl/funeral-service/laws-and-rules/",
+          "label": "Utah DOPL: funeral-service laws and rules"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "vermont",
+      "topic": "Disposition authority",
+      "sources": [
+        {
+          "url": "https://legislature.vermont.gov/statutes/section/18/107/05227",
+          "label": "Vermont 18 V.S.A. § 5227"
+        },
+        {
+          "url": "https://sos.vermont.gov/funeral-service/statutes-rules-resources",
+          "label": "Vermont Office of Professional Regulation: funeral service"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "washington",
+      "topic": "Written wishes and designated agents",
+      "sources": [
+        {
+          "url": "https://apps.leg.wa.gov/rcw/default.aspx?cite=68.50.160",
+          "label": "Washington RCW 68.50.160"
+        },
+        {
+          "url": "https://dol.wa.gov/professional-licenses/funeral-directors/laws-and-rules-funerals-and-cemeteries",
+          "label": "Washington Department of Licensing: funerals and cemeteries"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "wisconsin",
+      "topic": "Planning is different from funding",
+      "sources": [
+        {
+          "url": "https://dsps.wi.gov/a-z-boards-and-councils-list/funeral-directors/consumer-guide-pre-plan-funeral/",
+          "label": "Wisconsin DSPS: Consumer Guide to Preplanning a Funeral"
+        },
+        {
+          "url": "https://dsps.wi.gov/a-z-professions-list/funeral-director/",
+          "label": "Wisconsin DSPS: funeral directors"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    },
+    {
+      "slug": "wyoming",
+      "topic": "Written instructions and consent",
+      "sources": [
+        {
+          "url": "https://www.wyoleg.gov/statutes/compress/title02.pdf",
+          "label": "Wyoming Statutes § 2-17-101"
+        },
+        {
+          "url": "https://fspboard.wyo.gov/contact",
+          "label": "Wyoming State Board of Funeral Service Practitioners"
+        }
+      ],
+      "reviewDate": "2026-10-10",
+      "coverage": "selected",
+      "unresolved": [
+        "Complete disposition-authority rules",
+        "All preservation requirements",
+        "All cremation conditions and timing",
+        "Transport and home funeral or burial permissions",
+        "Preneed contract protections",
+        "All complaint jurisdictions"
+      ]
+    }
+  ]
+}

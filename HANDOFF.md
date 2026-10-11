@@ -11,23 +11,11 @@ Morticians Audit is free consumer funeral-rights and price education for familie
 Public founder name stays `Jessica H`. Founder wording stays `former North Carolina licensed funeral director and embalmer`. Do not add a surname, current-license implication, license number, or public lookup unless Jessica explicitly changes that decision.
 
 ## State coverage now researched
-Eleven state pages are now sourced, indexable guides:
+All 50 state pages now provide linked official sources for selected requirements or consumer guidance and are indexable. The directory has one alphabetical list; the sitemap includes all 50 state routes.
 
-- North Carolina
-- South Carolina
-- Virginia
-- Tennessee
-- Georgia
-- Florida
-- Alabama
-- Kentucky
-- West Virginia
-- Maryland
-- Ohio
+Coverage varies. These pages do not establish every preservation deadline, cremation waiting period, home-funeral/home-burial rule, transport permission, preneed protection, or disposition option. Idaho and Indiana emphasize licensing; New Jersey explicitly identifies an upcoming November 1, 2026 statutory change rather than presenting it as current law. Never describe this as complete legal coverage.
 
-All other state pages remain general starting pages and must keep their research-pending language and `noindex,follow` until their state-specific claims are researched against current authoritative sources.
-
-The researched-state directory at `/states/` now identifies the eleven researched guides. The sitemap includes `/states/` and those eleven researched state pages.
+`data/state-source-register.json` records this 39-state expansion's source links, topics, review date, and unresolved research categories. Expand the register to include the earlier eleven guides before using it as a nationwide rules engine. Keep unverified fields unresolved.
 
 ## October 10 expansion
 New researched pages were added for Virginia, Tennessee, Georgia, and Florida using current official statutes, regulations, regulator pages, or state consumer guidance. Each page intentionally covers selected high-value issues instead of pretending to summarize every funeral, cemetery, medical-examiner, transport, home-burial, or public-health requirement.
@@ -56,7 +44,7 @@ Homepage copy still has one known soft phrase: `you should receive` in the itemi
 
 ## Next product features, in priority order
 1. Build `They told me I have to...` as a state-aware decision tool distinguishing law, cemetery/crematory rules, provider policy, and recommendation.
-2. Standardize a structured research schema for every state before scaling all 50 pages. Include authority, embalming, refrigeration/preservation, cremation timing and authorization, permits, transport, home funeral/home burial, disposition options, preneed regulator, complaint route, official forms, source URLs, and review date.
+2. Complete a structured research schema for every state before building a nationwide rules engine. Include authority, embalming, refrigeration/preservation, cremation timing and authorization, permits, transport, home funeral/home burial, disposition options, preneed regulator, complaint route, official forms, source URLs, and review date.
 3. Expand the comparison worksheet toward an estimate/GPL auditor. It should flag missing information and questions, not declare violations automatically.
 4. Add a `Before you call the funeral home` price-call sheet, including the federal right to receive telephone price information without first identifying yourself.
 5. Later add price intelligence using authoritative or clearly attributed survey data, ownership transparency, death-situation pathways, and Spanish content.
@@ -82,3 +70,10 @@ Added Alabama, Kentucky, West Virginia, Maryland, and Ohio as sourced, indexable
 - Ohio: §§ 2108.81 and 4717.23 cover disposition authority, general 24-hour wait and cremation documents. Board website is the starting point for current complaint instructions.
 
 Validation: unique canonicals, index/follow tags, retained guide.js route hooks, directory links, and sitemap entries checked before committing. Live deployment remains unconfirmed.
+
+## Remaining-state expansion, October 10
+Added all 39 remaining states with selected official-source guidance. Removed placeholder/noindex status on those pages, preserved shared scripts and route hooks, and updated the directory and sitemap together. State-specific paragraphs link to the cited source; each guide includes scope limits and a relevant official starting point for concerns.
+
+Source limitations: some official sites blocked full-page retrieval, so only claims supported by available official search excerpts were included. Mississippi uses the Board's December 2025 compilation; Vermont's published page states it includes the 2025 session. New Jersey's 2025 act is explicitly upcoming on the review date. Avoid inferring complete current-law review from a review date. Recheck amendments and effective dates before adding more claims.
+
+Validation: 39 unique page canonicals, index/follow tags, official source links, preserved route hooks, 50 unique directory state links and 50 unique sitemap state entries. GitHub commit does not establish live deployment.
